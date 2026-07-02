@@ -92,4 +92,12 @@ export * from './evaluation/data-source';
 export * from './evaluation/online-evaluation-base';
 export * from './evaluation/online-evaluation';
 
+// ===================================
+// Policy (Cedar authorization policies)
+// ===================================
+export * from './policy/policy-engine';
+export * from './policy/policy';
+export * from './policy/policy-statement';
+export * from './policy/perms';
+
 // validation-helpers contains internal utilities and should not be exported
